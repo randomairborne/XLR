@@ -58,7 +58,7 @@ jobs:
         with:
           name: ${{ matrix.arch }}-executables
           path: |
-            target/${{ matrix.arch }}-unknown-linux-musl/release/tinylevel
+            target/${{ matrix.arch }}-unknown-linux-musl/release/xlr
 
   publish:
     runs-on: ubuntu-latest
